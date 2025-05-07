@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-l7mwzsgnodtg#^-544hno@97b-h41nwgj#g#^ob3hy_juaspb!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "shiny-space-winner-4w9rjxjv4q3jjqw-8000.app.github.dev",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
